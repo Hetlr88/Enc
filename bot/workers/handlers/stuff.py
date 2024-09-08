@@ -127,12 +127,12 @@ async def start(event, args, client):
             [Button.inline("Help", data="ihelp")],
             [
                 Button.url(
-                    "Source-Code (Original)",
-                    url="github.com/1Danish-00/compressorqueue",
+                    "𝑫𝑬𝑽𝑳𝑶𝑷𝑬𝑹",
+                    url="https://t.me/X_XF8",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("𝑴𝒀 𝑪𝑯𝑨𝑵𝑵𝑬𝑳", url="https://t.me/MoVIES0X1"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("𝑹𝒆𝒏𝒂𝒎𝒆 𝒃𝒐𝒕 ", url="https://t.me/REBXSBOT")],
         ],
     )
 
@@ -143,12 +143,12 @@ async def help(event, args, client):
 
 async def ihelp(event):
     await event.edit(
-        "**⛩️ An Encode bot**\n\n+"
-        "This bot encodes videos With your custom ffmpeg or handbrake-cli settings."
+        "**⛩️ Resize | Compress Video Bot **\n\n+"
+        "🤖 This bot could convert videos to various formats 🎞، It's may help you by compressing the way big videos comparing to it's duration and watch it according to your internet connection speed 🛜."
         "\n+Easy to Use (Depends)\n"
         "-Due to your custom Settings & hosting server bot may or may not take a long time to encode"
         ".\n\nJust Forward a Video…/videos"
-        "\n\nFor available commands click the Commands button below.",
+        "\n\n Thanks For using Me Admin :@X_XF8",
         buttons=[
             [Button.inline("Commands", data="icommands")],
             [Button.inline("🔙 Back", data="beck")],
@@ -180,12 +180,12 @@ async def beck(event):
             [Button.inline("Help", data="ihelp")],
             [
                 Button.url(
-                    "Source-Code (Original)",
-                    url="github.com/1Danish-00/compressorqueue",
+                    "𝑫𝑬𝑽𝑳𝑶𝑷𝑬𝑹",
+                    url="https://t.me/X_XF8",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("𝑴𝒀 𝑪𝑯𝑨𝑵𝑵𝑬𝑳", url="https://t.me/MoVIES0X1"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("𝑹𝒆𝒏𝒂𝒎𝒆 𝒃𝒐𝒕 ", url="https://t.me/REBXSBOT")],
         ],
     )
 
