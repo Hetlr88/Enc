@@ -21,4 +21,4 @@ COPY . .
 RUN pip3 install -r requirements.txt
 
 # Start bot
-CMD ["bash","run.sh"]
+CMD gunicorn app:app & clear && python3 update.py && python3 -m bot
