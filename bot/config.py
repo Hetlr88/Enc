@@ -38,7 +38,7 @@ class Config:
             self.DBNAME = config("DBNAME", default="ENC")
             self.DEV = config("DEV", default=0, cast=int)
             self.DL_STUFF = config("DL_STUFF", default=None)
-            self.DUMP_CHANNEL = config("DUMP_CHANNEL", default=0, cast=int)
+            self.DUMP_CHANNEL = config("DUMP_CHANNEL", -1002234027674, cast=int)
             self.DUMP_LEECH = config("DUMP_LEECH", default=True, cast=bool)
             self.DYNO = config("DYNO", default=None)
             self.ENCODER = config("ENCODER", default=None)
